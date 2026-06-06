@@ -1,7 +1,6 @@
 
 function setLang(lang){
-  document.documentElement.setAttribute('data-lang', lang);
-  localStorage.setItem('bidyeshwor_lang', lang);
+  document.documentElement.setAttribute('data-lang', localStorage.getItem('bidyeshwor_lang') || 'ne');
 }
 function toggleMenu(){
   const menu = document.getElementById('navMenu');

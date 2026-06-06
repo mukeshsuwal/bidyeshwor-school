@@ -24,7 +24,12 @@ body{
 a{color:inherit;text-decoration:none}
 img{max-width:100%;display:block}
 .container{width:min(1180px, calc(100% - 28px)); margin:0 auto}
-[data-lang]{display:none}
+html[data-lang="ne"] [data-lang="en"]{display:none}
+html[data-lang="en"] [data-lang="ne"]{display:none}
+html[data-lang="ne"] [data-lang="ne"],
+html[data-lang="en"] [data-lang="en"],
+html[data-lang="ne"] [data-lang="both"],
+html[data-lang="en"] [data-lang="both"]{display:block}
 html[data-lang="ne"] [data-lang="ne"]{display:block}
 html[data-lang="en"] [data-lang="en"]{display:block}
 html[data-lang="ne"] [data-lang="both"], html[data-lang="en"] [data-lang="both"]{display:block}
