@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ne" data-lang="ne">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Downloads - Shree Bidyeshwor Secondary School</title>
+  <meta name="description" content="Official website of Shree Bidyeshwor Secondary School">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+  <link rel="apple-touch-icon" href="assets/logo.jpg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.jpg" alt="School logo" class="brand__logo">
+      <div class="brand__copy">
+        <strong data-lang="ne">श्री विद्येश्वर माध्यमिक विद्यालय</strong>
+        <strong data-lang="en">Shree Bidyeshwor Secondary School</strong>
+        <span data-lang="ne">टेम्केमैयुङ–८, गोगने, भोजपुर, कोशी प्रदेश, नेपाल</span>
+        <span data-lang="en">Temkemaiyung-8, Gogane, Bhojpur, Koshi Province, Nepal</span>
+      </div>
+    </a>
+
+    <button class="nav__toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+
+    <div class="nav__menu" id="navMenu">
+      <a class="" href="index.html">Home / गृहपृष्ठ</a><a class="" href="about.html">About / परिचय</a><a class="" href="academics.html">Academics / शैक्षिक</a><a class="" href="teachers.html">Teachers / शिक्षक</a><a class="" href="achievements.html">Achievements / उपलब्धि</a><a class="" href="gallery.html">Gallery / ग्यालरी</a><a class="" href="notices.html">Notices / सूचना</a><a class="active" href="downloads.html">Downloads / डाउनलोड</a><a class="" href="contact.html">Contact / सम्पर्क</a>
+      <div class="nav__lang">
+        <button class="langbtn" onclick="setLang('ne')">नेपाली</button>
+        <button class="langbtn langbtn--soft" onclick="setLang('en')">English</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<main>
+  <section class="page-hero">
+    <div class="container page-hero__box">
+      <h1 data-lang="ne">डाउनलोड केन्द्र</h1>
+      <h1 data-lang="en">Downloads</h1>
+      <p data-lang="ne">विद्यालयका कागजातका लागि PDF बटनहरू</p>
+      <p data-lang="en">PDF buttons for school documents</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid cols-2">
+      <div class="download-item">
+        <div>
+          <strong data-lang="ne">विद्यालय प्रोफाइल</strong>
+          <strong data-lang="en">School Profile</strong>
+          <div class="small" data-lang="ne">PDF फाइल</div>
+          <div class="small" data-lang="en">PDF file</div>
+        </div>
+        <a class="pdf-btn" href="documents/School_Profile.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20h14v-2H5v2zm7-18v10.2l3.6-3.6L17 10l-5 5-5-5 1.4-1.4L11 12.2V2h1z"/></svg><span>PDF</span></a>
+      </div>
+      <div class="download-item">
+        <div>
+          <strong data-lang="ne">भर्ना फाराम</strong>
+          <strong data-lang="en">Admission Form</strong>
+          <div class="small" data-lang="ne">प्रिन्ट गर्न मिल्ने फाराम</div>
+          <div class="small" data-lang="en">Printable form</div>
+        </div>
+        <a class="pdf-btn" href="documents/Admission_Form.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20h14v-2H5v2zm7-18v10.2l3.6-3.6L17 10l-5 5-5-5 1.4-1.4L11 12.2V2h1z"/></svg><span>PDF</span></a>
+      </div>
+      <div class="download-item">
+        <div>
+          <strong data-lang="ne">परीक्षा तालिका</strong>
+          <strong data-lang="en">Exam Schedule</strong>
+          <div class="small" data-lang="ne">नियमित अद्यावधिक</div>
+          <div class="small" data-lang="en">Regularly updated</div>
+        </div>
+        <a class="pdf-btn" href="documents/Exam_Schedule.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20h14v-2H5v2zm7-18v10.2l3.6-3.6L17 10l-5 5-5-5 1.4-1.4L11 12.2V2h1z"/></svg><span>PDF</span></a>
+      </div>
+      <div class="download-item">
+        <div>
+          <strong data-lang="ne">विद्यालय क्यालेन्डर</strong>
+          <strong data-lang="en">School Calendar</strong>
+          <div class="small" data-lang="ne">वार्षिक तालिका</div>
+          <div class="small" data-lang="en">Annual schedule</div>
+        </div>
+        <a class="pdf-btn" href="documents/School_Calendar.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20h14v-2H5v2zm7-18v10.2l3.6-3.6L17 10l-5 5-5-5 1.4-1.4L11 12.2V2h1z"/></svg><span>PDF</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container card">
+      <h2 data-lang="ne">नोट</h2>
+      <h2 data-lang="en">Note</h2>
+      <p data-lang="ne">यी PDF फाइलहरू placeholder हुन्। वास्तविक विद्यालयका PDF फाइल राखेपछि बटनले सिधै डाउनलोड गर्नेछ।</p>
+      <p data-lang="en">These PDFs are placeholders. Replace them with real PDFs and the buttons will download the files directly.</p>
+    </div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <h3 data-lang="ne">श्री विद्येश्वर माध्यमिक विद्यालय</h3>
+      <h3 data-lang="en">Shree Bidyeshwor Secondary School</h3>
+      <p data-lang="ne">टेम्केमैयुङ–८, गोगने, भोजपुर, कोशी प्रदेश, नेपाल</p>
+      <p data-lang="en">Temkemaiyung-8, Gogane, Bhojpur, Koshi Province, Nepal</p>
+      <div class="social">
+        <a class="social__link" href="https://www.facebook.com/share/189mHwxmXG/" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.8c0-.9.3-1.5 1.6-1.5h1.7V4.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.3 1.5-4.3 4.3V11H7.2V14h2.8v8h3.5z"/></svg>
+          <span>Facebook</span>
+        </a>
+        <a class="social__link" href="https://www.google.com/maps?q=27.146269444444442,86.96556666666667" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 10.2A3.2 3.2 0 1 1 12 6.8a3.2 3.2 0 0 1 0 6.4z"/></svg>
+          <span>Map</span>
+        </a>
+      </div>
+    </div>
+    <div>
+      <h4 data-lang="ne">सम्पर्क</h4>
+      <h4 data-lang="en">Contact</h4>
+      <p><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.4 15.4 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2 11 11 0 0 0 3.5.6 1 1 0 0 1 1 1V21a1 1 0 0 1-1 1A19 19 0 0 1 3 5a1 1 0 0 1 1-1h4.4a1 1 0 0 1 1 1 11 11 0 0 0 .6 3.5 1 1 0 0 1-.2 1l-2.2 2.3z"/></svg> 9842107319</p>
+      <p><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.4 15.4 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2 11 11 0 0 0 3.5.6 1 1 0 0 1 1 1V21a1 1 0 0 1-1 1A19 19 0 0 1 3 5a1 1 0 0 1 1-1h4.4a1 1 0 0 1 1 1 11 11 0 0 0 .6 3.5 1 1 0 0 1-.2 1l-2.2 2.3z"/></svg> 9864689645</p>
+      <p>bidyeshworsec@gmail.com</p>
+    </div>
+    <div>
+      <h4 data-lang="ne">छिटो लिङ्क</h4>
+      <h4 data-lang="en">Quick Links</h4>
+      <p><a href="notices.html">Notice Board</a></p>
+      <p><a href="downloads.html">Downloads</a></p>
+      <p><a href="contact.html">Location</a></p>
+    </div>
+  </div>
+  <div class="footer__bottom">© 2026 Shree Bidyeshwor Secondary School</div>
+</footer>
+
+</body>
+</html>

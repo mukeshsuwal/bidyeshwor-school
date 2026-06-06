@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ne" data-lang="ne">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shree Bidyeshwor Secondary School</title>
+  <meta name="description" content="Official website of Shree Bidyeshwor Secondary School">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+  <link rel="apple-touch-icon" href="assets/logo.jpg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.jpg" alt="School logo" class="brand__logo">
+      <div class="brand__copy">
+        <strong data-lang="ne">श्री विद्येश्वर माध्यमिक विद्यालय</strong>
+        <strong data-lang="en">Shree Bidyeshwor Secondary School</strong>
+        <span data-lang="ne">टेम्केमैयुङ–८, गोगने, भोजपुर, कोशी प्रदेश, नेपाल</span>
+        <span data-lang="en">Temkemaiyung-8, Gogane, Bhojpur, Koshi Province, Nepal</span>
+      </div>
+    </a>
+
+    <button class="nav__toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+
+    <div class="nav__menu" id="navMenu">
+      <a class="active" href="index.html">Home / गृहपृष्ठ</a><a class="" href="about.html">About / परिचय</a><a class="" href="academics.html">Academics / शैक्षिक</a><a class="" href="teachers.html">Teachers / शिक्षक</a><a class="" href="achievements.html">Achievements / उपलब्धि</a><a class="" href="gallery.html">Gallery / ग्यालरी</a><a class="" href="notices.html">Notices / सूचना</a><a class="" href="downloads.html">Downloads / डाउनलोड</a><a class="" href="contact.html">Contact / सम्पर्क</a>
+      <div class="nav__lang">
+        <button class="langbtn" onclick="setLang('ne')">नेपाली</button>
+        <button class="langbtn langbtn--soft" onclick="setLang('en')">English</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<main>
+  
+<section class="hero">
+  <div class="container hero__panel">
+    <div class="hero__inner">
+      <div>
+        <div class="hero__badge" data-lang="ne">८५ वर्षको शैक्षिक यात्रा</div>
+        <div class="hero__badge" data-lang="en">85 years of educational service</div>
+        <h1 class="hero__title" data-lang="ne">श्री विद्येश्वर माध्यमिक विद्यालय</h1>
+        <h1 class="hero__title" data-lang="en">Shree Bidyeshwor Secondary School</h1>
+        <p class="hero__lead" data-lang="ne">ज्ञान, अनुशासन र संस्कारसहित गुणस्तरीय शिक्षा — टेम्केमैयुङ–८, गोगने, भोजपुर, कोशी प्रदेश, नेपाल मा अवस्थित विद्यालयले समुदायको सहयोगमा निरन्तर उत्कृष्टता हासिल गर्दै आएको छ।</p>
+        <p class="hero__lead" data-lang="en">Quality Education with Knowledge, Discipline and Values — Located in Temkemaiyung-8, Gogane, Bhojpur, Koshi Province, Nepal, the school continues to excel with strong community support.</p>
+        <div class="hero__actions">
+          <a class="btn btn--light" href="about.html">About Us / हाम्रो बारेमा</a>
+          <a class="btn btn--outline" href="contact.html">Contact / सम्पर्क</a>
+        </div>
+      </div>
+      <div class="hero__media">
+        <img id="heroImage" src="assets/campus-1.jpg" alt="School image">
+        <div class="hero__caption" id="heroCaption">विद्यालयको मुख्य भवन</div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <h2 data-lang="ne">मुख्य तथ्याङ्क</h2>
+          <h2 data-lang="en">School Facts</h2>
+          <p data-lang="ne">विद्यालयका महत्वपूर्ण सूचकहरू</p>
+          <p data-lang="en">Important school indicators</p>
+        </div>
+      </div>
+      <div class="grid grid--cards">
+        <div class="card stat"><strong>1998 B.S.</strong><span data-lang="ne">स्थापना</span><span data-lang="en">Established</span></div>
+        <div class="card stat"><strong>300+</strong><span data-lang="ne">विद्यार्थी</span><span data-lang="en">Students</span></div>
+        <div class="card stat"><strong>18</strong><span data-lang="ne">शिक्षक/कर्मचारी</span><span data-lang="en">Staff</span></div>
+        <div class="card stat"><strong>100%</strong><span data-lang="ne">SEE 2082</span><span data-lang="en">SEE 2082</span></div>
+        <div class="card stat"><strong>Top</strong><span data-lang="ne">जिल्ला प्रथम</span><span data-lang="en">District Top</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid cols-2">
+      <article class="card note">
+        <h2 data-lang="ne">प्रधानाध्यापकको सन्देश</h2>
+        <h2 data-lang="en">Principal's Message</h2>
+        <p data-lang="ne">पूर्ण कुमारी प्रधानको नेतृत्वमा विद्यालयले गुणस्तरीय शिक्षासँगै अनुशासन, संस्कार र विद्यार्थीको सर्वाङ्गीण विकासलाई प्राथमिकता दिएको छ।</p>
+        <p data-lang="en">Under Principal Purna Kumari Pradhan, the school emphasizes quality education, discipline, values, and holistic student development.</p>
+      </article>
+      <article class="card">
+        <h2 data-lang="ne">सूचना पाटी</h2>
+        <h2 data-lang="en">Notice Board</h2>
+        <ul class="list">
+          <li data-lang="ne">भर्ना, परीक्षा र छात्रवृत्ति सम्बन्धी सूचनाहरू यहीँ प्रकाशित हुनेछ।</li>
+          <li data-lang="en">Admission, exam, and scholarship notices will be published here.</li>
+          <li data-lang="ne">विद्यालयका कार्यक्रम र गतिविधिहरू नियमित अपडेट गरिनेछ।</li>
+          <li data-lang="en">School events and activities will be updated regularly.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <h2 data-lang="ne">भर्खरका गतिविधिहरू</h2>
+          <h2 data-lang="en">Recent Activities</h2>
+          <p data-lang="ne">विद्यालयका तस्बिर र कार्यक्रमहरू</p>
+          <p data-lang="en">School photos and events</p>
+        </div>
+      </div>
+      <div class="media-grid">
+        <figure class="span-6"><img src="assets/campus-1.jpg" alt="Campus 1"><figcaption data-lang="ne">विद्यालयको मुख्य भवन</figcaption><figcaption data-lang="en">Main school building</figcaption></figure>
+        <figure class="span-6"><img src="assets/campus-2.jpg" alt="Campus 2"><figcaption data-lang="ne">शैक्षिक गतिविधि</figcaption><figcaption data-lang="en">Academic activity</figcaption></figure>
+        <figure class="span-4"><img src="assets/campus-3.jpg" alt="Campus 3"><figcaption data-lang="ne">विद्यार्थी उपलब्धि</figcaption><figcaption data-lang="en">Student achievement</figcaption></figure>
+        <figure class="span-4"><img src="assets/campus-4.jpg" alt="Campus 4"><figcaption data-lang="ne">समारोह तथा कार्यक्रम</figcaption><figcaption data-lang="en">Ceremony and events</figcaption></figure>
+        <figure class="span-4"><img src="assets/logo.jpg" alt="Logo"><figcaption data-lang="ne">विद्यालय लोगो</figcaption><figcaption data-lang="en">School logo</figcaption></figure>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <h3 data-lang="ne">श्री विद्येश्वर माध्यमिक विद्यालय</h3>
+      <h3 data-lang="en">Shree Bidyeshwor Secondary School</h3>
+      <p data-lang="ne">टेम्केमैयुङ–८, गोगने, भोजपुर, कोशी प्रदेश, नेपाल</p>
+      <p data-lang="en">Temkemaiyung-8, Gogane, Bhojpur, Koshi Province, Nepal</p>
+      <div class="social">
+        <a class="social__link" href="https://www.facebook.com/share/189mHwxmXG/" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.8c0-.9.3-1.5 1.6-1.5h1.7V4.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.3 1.5-4.3 4.3V11H7.2V14h2.8v8h3.5z"/></svg>
+          <span>Facebook</span>
+        </a>
+        <a class="social__link" href="https://www.google.com/maps?q=27.146269444444442,86.96556666666667" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 10.2A3.2 3.2 0 1 1 12 6.8a3.2 3.2 0 0 1 0 6.4z"/></svg>
+          <span>Map</span>
+        </a>
+      </div>
+    </div>
+    <div>
+      <h4 data-lang="ne">सम्पर्क</h4>
+      <h4 data-lang="en">Contact</h4>
+      <p><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.4 15.4 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2 11 11 0 0 0 3.5.6 1 1 0 0 1 1 1V21a1 1 0 0 1-1 1A19 19 0 0 1 3 5a1 1 0 0 1 1-1h4.4a1 1 0 0 1 1 1 11 11 0 0 0 .6 3.5 1 1 0 0 1-.2 1l-2.2 2.3z"/></svg> 9842107319</p>
+      <p><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.4 15.4 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2 11 11 0 0 0 3.5.6 1 1 0 0 1 1 1V21a1 1 0 0 1-1 1A19 19 0 0 1 3 5a1 1 0 0 1 1-1h4.4a1 1 0 0 1 1 1 11 11 0 0 0 .6 3.5 1 1 0 0 1-.2 1l-2.2 2.3z"/></svg> 9864689645</p>
+      <p>bidyeshworsec@gmail.com</p>
+    </div>
+    <div>
+      <h4 data-lang="ne">छिटो लिङ्क</h4>
+      <h4 data-lang="en">Quick Links</h4>
+      <p><a href="notices.html">Notice Board</a></p>
+      <p><a href="downloads.html">Downloads</a></p>
+      <p><a href="contact.html">Location</a></p>
+    </div>
+  </div>
+  <div class="footer__bottom">© 2026 Shree Bidyeshwor Secondary School</div>
+</footer>
+
+</body>
+</html>
