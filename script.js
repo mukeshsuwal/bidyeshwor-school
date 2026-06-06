@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const heroCaption = document.getElementById('heroCaption');
   if(heroImage && heroCaption){
     const slides = [
-      {src:'assets/main-campus.jpg', ne:'श्री विद्योश्वर माध्यमिक विद्यालयको मुख्य परिसर', en:'Main school building'},
+      {src:'assets/main-campus.jpg', ne:'श्री विद्योश्वर माध्यमिक विद्यालयको मुख्य परिसर', en:'Main periphery of shree bidyeshwor secondary school'},
       {src:'assets/campus-2.jpg', ne:'शैक्षिक गतिविधि', en:'Academic activity'},
       {src:'assets/campus-3.jpg', ne:'विद्यार्थी उपलब्धि', en:'Student achievement'},
       {src:'assets/campus-4.jpg', ne:'समारोह तथा कार्यक्रम', en:'Ceremony and events'},
